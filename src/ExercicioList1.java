@@ -1,10 +1,9 @@
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Iterator;
+import java.util.List;
 
 public class ExercicioList1 {
     public static void main(String[] args) {
-        ArrayList<mesTemp> temperaturas = new ArrayList<>();
+        List<mesTemp> temperaturas = new ArrayList<>();
         temperaturas.add(new mesTemp("janeiro", 18.9));
         temperaturas.add(new mesTemp("Fevereiro", 20.1));
         temperaturas.add(new mesTemp("Marco", 21.8));
