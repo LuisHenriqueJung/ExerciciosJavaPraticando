@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package Set;
+
 import java.util.*;
 
 public class ExercicioSet2 {
@@ -146,7 +147,7 @@ class ComparatorNomeAnoDeCriacaoIde implements Comparator<LinguagemFavorita>{
     }
 }
 /*
-Crie uma classe LinguagemFavorita que possua os atributos nome, anoDeCriacao e IDE.
+Crie uma classe Set.LinguagemFavorita que possua os atributos nome, anoDeCriacao e IDE.
 Em seguida, crie um conjunto com 3 linguagens e faça um programa que ordene esse conjunto por:
 a) Ordem de inserção;
 b) Ordem natural(nome);
